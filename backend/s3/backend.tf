@@ -4,7 +4,7 @@ terraform {
     organization = "programando-seu-emprego"
 
     workspaces {
-      name = "terraform-s3-backend"
+      prefix = "terraform-s3-backend"
     }
   }
 }
