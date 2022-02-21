@@ -19,8 +19,8 @@ Será criado:
 
 Ex:
 ```
-bucket_name = "pm-progseuemprego-s3-backend"
-dynamodb_name = "pm-progseuemprego-dynamodb-backend"
+bucket_name = "nome-do-bucket"
+dynamodb_name = "nome-do-dynamodb"
 ```
 
 Você pode consultar as variáveis utilizadas no arquivo [variables.tf](backend/s3/variables.tf). Outras variáveis já estão com valor padrão, mas você pode alterá-las.
