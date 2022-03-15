@@ -46,6 +46,9 @@ terraform login
 
 É preciso criar uma organização no Terraform Cloud.  Você deve setar essa organização no arquivo [backend.tf](backend/s3/backend.tf) no campo "organization".
 
+Também é necessário alterar o workspace para execução local. Por exemplo, em "programando-seu-emprego-2 > Workspaces > terraform-s3-backendbackend-aws-pse > Settings > General", em "Execution Mode", altere para execução local, permitindo que o plano seja executado na máquina local, mas ainda mantendo o gerenciamento de estados na Terraform Cloud.
+
+
 
 ## Executando
 *Para executar é obrigatório as configurações acima.*
